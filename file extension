@@ -1,0 +1,12 @@
+file_name=input("Enter the file name : ")
+exe=file_name.split(".")
+if exe[-1]=='py':
+    print("The name of file extension is python")
+elif exe[-1]=='html':
+    print("The name of file extension is HTML")
+elif exe[-1]=="c" or "cc":
+    print("The name of file extension is C")
+elif exe[-1]=="cpp":
+    print("The name of file extension is C++")
+else:
+    print("Enter the correct filename !")
